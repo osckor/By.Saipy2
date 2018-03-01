@@ -12,7 +12,7 @@ from googletrans import Translator
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, tempfile, glob, shutil, unicodedata, goslate
 
 cl = LINETCR.LINE()
-cl.login(token="Epg9MybQysQKBFBlFat9.2PnOnQMgNRHUYkUzkK6jEq.06wANpkpnWV+t0wtF5IwKfSFi4cV49oCrW32NikCFw8=")
+cl.login(token="EqbiOEmJYEGDDNrGlQtd.QIEHOxBBcovtMo/gfDDhpq.qDzs5g0c2QATAVvBmh5fe8gDlSluk4f5eeDtZ1tkoj0=")
 cl.loginResult()
 
 
@@ -112,7 +112,7 @@ mid = cl.getProfile().mid
 #ki5mid = ki5.getProfile().mid
 #ki6mid = ki6.getProfile().mid
 Bots=[mid]
-admsa = "uda936836a9869eb86ec8ab992a4e8979"
+admsa = "ubd78f3da598d3c32e075e062e88545ec"
 
 wait = {
     'contact':False,
