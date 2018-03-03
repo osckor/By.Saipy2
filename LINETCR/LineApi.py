@@ -54,9 +54,9 @@ class LINE:
     self.obs_token = self.channel.obs_token
     self.refresh_token = self.channel.refresh_token
     self._headers = {
-              'X-Line-Application': 'CHROMEOS\t1.4.17\tChrome_OS\t1',
+              'X-Line-Application': 'CHROMEOS\t8.4.2\tChrome_OS\t1',
               'X-Line-Access': self.authToken,
-              'User-Agent': 'Line/1.4.17' 
+              'User-Agent': 'Line/8.4.2' 
                }
 
   """User"""
