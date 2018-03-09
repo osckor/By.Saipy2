@@ -1,17 +1,9 @@
 # SELFBOTS
 
-# SUPORT
-#### Tagall
-#### cek sider/cctv
-#### tampilkan pp
-#### autolike
-#### audio/musik
-#### translate bahasa
-#### Nuke/kickall
-#### DLL
 
-# Vipro Bot
+
+# Vipro Bot By Sai
 
 # LINE ME
 
-http://line.me/ti/p/~gjxvipro
+http://line.me/ti/p/~bot_botv13
