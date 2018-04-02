@@ -1,8 +1,4 @@
-# SELFBOTS
-
-
-
-# Vipro Bot By Sai
+# SELFBOTS Bot By Sai
 
 # LINE ME
 
