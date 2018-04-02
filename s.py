@@ -115,27 +115,22 @@ Bots=[mid]
 admsa = "ubd78f3da598d3c32e075e062e88545ec"
 
 wait = {
-    'contact':False,
-    'autoJoin':False,
-    'autoCancel':{"on":True,"members":1},
+    'contact':True,
+    'autoJoin':True,
+    'autoCancel':{"on":False,"members":1},
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
     'steal':{},
     'pap':{},
     'gift':{},
-    'message':""" 💥🔥【тнanĸѕ ғor add мe】🔥💥
-                              😎
-                         🖕🏻👕👊🏻
-                              👖
-                              👢
-          💥🔥AUTO ADD FRIEND🔥💥
+    'message':""" 💥🔥【тнanĸѕ ғor add мe By Sai】🔥💥
+
 """,
     "lang":"JP",
-    "comment1":"""{AUTO LIKE BY}
-         VIPRO
+    "comment1":"""{AUTO LIKE BY SAI}
 """,
-    "commentOn":False,
+    "commentOn":True,
     "likeOn":True,
     "commentBlack":{},
     "wblack":False,
@@ -153,7 +148,7 @@ wait = {
     "cancelprotect":False,
     "inviteprotect":False,
     "linkprotect":False,
-    "atjointicket":True,
+    "atjointicket":False,
     }
 
 wait2 = {
@@ -595,7 +590,7 @@ def bot(op):
             ginfo = cl.getGroup(op.param1)
             contact = cl.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            cl.sendText(op.param1,"Hallo " + cl.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note\nDan Semoga Betah Disini  (｀・ω・´)\n \n"  +  datetime.now().strftime('%H:%M:%S'))
+            cl.sendText(op.param1,"ดี " + cl.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nเข้ามาแล้วแก้ผ้าด้วยนะ  (｀・ω・´)\n \n"  +  datetime.now().strftime('%H:%M:%S'))
             cl.sendImageWithURL(op.param1,image)
             print "MEMBER JOIN TO GROUP"
 
@@ -608,7 +603,7 @@ def bot(op):
             msg.contentType = 13
             msg.contentMetadata = {'mid': msg.from_}
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            cl.sendText(op.param1,"Good Bye " + cl.getContact(op.param2).displayName +  "\nSee You Next Time . . .  (｀・ω・´)\n \n"  +  datetime.now().strftime('%H:%M:%S'))
+            cl.sendText(op.param1,"ไปแล้วอย่าเสือกกลับมานะ " + cl.getContact(op.param2).displayName +  datetime.now().strftime('%H:%M:%S'))
             cl.sendImageWithURL(op.param1,image)
             cl.sendMessage(msg)
             print "MEMBER HAS LEFT THE GROUP"
@@ -765,7 +760,7 @@ def bot(op):
                 cl.sendMessage(msg)
             elif "Creator" == msg.text:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'uda936836a9869eb86ec8ab992a4e8979'}
+                msg.contentMetadata = {'mid': 'ubd78f3da598d3c32e075e062e88545ec'}
                 cl.sendMessage(msg)
             elif msg.text in ["Allgift","B1 gift"]:
                 msg.contentType = 9
@@ -936,7 +931,7 @@ def bot(op):
                     cl.sendText(msg.to,"Not for use less than group")
             elif "Creator" == msg.text:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'uda936836a9869eb86ec8ab992a4e8979'}
+                msg.contentMetadata = {'mid': 'ubd78f3da598d3c32e075e062e88545ec'}
                 cl.sendMessage(msg)
             elif "Mymid" == msg.text:
                 cl.sendText(msg.to,mid)
@@ -1624,7 +1619,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"Off ✖")
             elif msg.text.lower() == 'set':
-                md = "{==🆅🅸🅿🆁🅾 🅱🅾🆃==}\n||=S E T T I N G=||\n\n"
+                md = "{==Sai==}\n||=S E T T I N G=||\n\n"
                 if wait["contact"] == True: md+="✬ Contact:on  ✔\n"
                 else: md+="✬ Contact:off  ✖\n"
                 if wait["autoJoin"] == True: md+="✬ Join:on  ✔\n"
@@ -1647,7 +1642,7 @@ def bot(op):
                 else:md+="✫ Proinvite:off  ✖\n"
                 if wait["cancelprotect"] == True: md+"✫ Procancel:on  ✔\n"
                 else:md+="✫ Procancel:off  ✖\n"
-                cl.sendText(msg.to,md + "\n\n{==🆅🅸🅿🆁🅾 🅱🅾🆃==}")
+                cl.sendText(msg.to,md + "\n\n{==Sai==}")
 #                msg.contentType = 13
 #                msg.contentMetadata = {'mid': admsa}
 #                cl.sendMessage(msg)
@@ -1670,11 +1665,11 @@ def bot(op):
                     cl.sendText(msg.to,"old user")
             elif cms(msg.text,["Add"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'uda936836a9869eb86ec8ab992a4e8979'}
+                msg.contentMetadata = {'mid': 'ubd78f3da598d3c32e075e062e88545ec'}
                 cl.sendText(msg.to,"❂•••••••••✧••••••••••❂")
                 cl.sendMessage(msg)
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'uda936836a9869eb86ec8ab992a4e8979'}
+                msg.contentMetadata = {'mid': 'ubd78f3da598d3c32e075e062e88545ec'}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"❂••••••••✰•✰••••••••❂")
             elif "Set album:" in msg.text:
@@ -3011,9 +3006,13 @@ def bot(op):
 				cl.acceptGroupInvitationByTicket(group.id,ticket_id)
 				cl.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
 #-----------------------------------------------
-            elif msg.text in ["Sp","Speed","speed"]:
-#                start = time.time()
-                cl.sendText(msg.to, "0.021980063087 secound","0.026850063087 secound","0.0209760063087 secound")
+            elif msg.text in ["Sp","sp","Speed"]:
+                cl.sendText(msg.to, "Progress.......")
+                start = time.time()
+                time.sleep(0.001)
+                elapsed_time = time.time() - start
+                cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                print "[Command]Speed palsu executed"
 #-----------------------------------------------
             elif msg.text.lower() == 'prank in':
                         G = cl.getGroup(msg.to)
@@ -3090,13 +3089,13 @@ def bot(op):
                     except:
                         pass
 #-----------------------------------------------
-#            elif "Bye" in msg.text:
-#                if msg.toType == 2:
-#                    ginfo = cl.getGroup(msg.to)
-#                    try:
-#                        cl.leaveGroup(msg.to)
-#                    except:
-#                        pass
+            elif "Bye" in msg.text:
+                if msg.toType == 2:
+                    ginfo = cl.getGroup(msg.to)
+                    try:
+                        cl.leaveGroup(msg.to)
+                    except:
+                        pass
 #-----------------------------------------------
 
 #-----------------------------------------------
