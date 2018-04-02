@@ -1,4 +1,4 @@
-# SELFBOTS Bot By Sai
+# SELFBOTS By Sai
 
 # LINE ME
 
