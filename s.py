@@ -12,7 +12,7 @@ from googletrans import Translator
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, tempfile, glob, shutil, unicodedata, goslate
 
 cl = LINETCR.LINE()
-cl.login(token="ErJUTyzvpULX7dNddAM4.v0jO/fS4Jrui6411bH8t1a.A5QjGJQ9qE+VhdsZbPIRQd0c6rhnUb7T+Vko9C+0Teo=")
+cl.login(token="ErCyk1XoFAgB1LYWyvtd.QIEHOxBBcovtMo/gfDDhpq.ZxHSyH4g5vbWMumd6XhkIrPJ5hI+qb8LUrEcMf2vFgw=")
 cl.loginResult()
 
 
